@@ -1,6 +1,6 @@
 public class Car {
     
-    final private String model;
+    private String model;
     private String color;
     private int price;
 
@@ -26,7 +26,4 @@ public class Car {
         this.color = color;
     }
 
-    void setPrice(int price){
-        this.price = price;
-    }
 }
